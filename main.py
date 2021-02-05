@@ -28,8 +28,8 @@ class Example(QWidget):
 
         # Запишем полученное изображение в файл.
         self.map_file = "map.png"
-        with open(self.map_file, "wb") as file:
-            file.write(response.content)
+        with open(self.map_file, as file:
+            file.write(response.content)"wb")
 
     def initUI(self):
         self.setGeometry(100, 100, *SCREEN_SIZE)

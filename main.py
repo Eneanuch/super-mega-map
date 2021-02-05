@@ -7,6 +7,8 @@ from PyQt5.QtWidgets import QApplication, QWidget, QLabel
 
 SCREEN_SIZE = [600, 450]
 
+l1 = 0
+
 
 class Example(QWidget):
     def __init__(self):
